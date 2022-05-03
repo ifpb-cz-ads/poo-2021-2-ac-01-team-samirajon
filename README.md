@@ -7,12 +7,19 @@ JDK(Java Development Kit): Como o próprio nome indica, é um kit, composto pelo
 
 Portanto, conclui-se que enquanto o JRE traz elementos necessários para o usuário,já o JDK é composto pelo JRE e traz ferramentas voltadas para o desenvolvedor.
 
-3.  class Main {
-  public static void main(String[] args) {
-    System.out.println("Terminei a primeira aula com um programa Java!");
-  }
-}
-
-Nome do arquivo: Main.java
+3. Nome do arquivo: Main.java
 
 4. O programa não executa, pois sem o class, o arquivo bytecode não é gerado e, por consequência, não tem como ser interpretado pela máquina.
+
+5. O programa não roda, o erro apresentado foi : Error: Main method not found in class exercicioAula, please define the main method as:
+   public static void main(String[] args), isso porque esse método em Java é bem definido, sem esse método a aplicação não será executada.
+   
+Nome do arquivo: exercicioAula.java
+
+6. Para a quebra de linha, usamos o System.out.println();
+
+Nome do arquivo: nomeTime.java
+
+7. O programa irá retornar 2 erros, pois a classe System precisa iniciar com uma letra maiúscula. Erro retornado : error: package system does not exist
+
+8. Retorna um erro, já que o arquivo precisa ter necessariamente o nome igual o da classe para ser compilado.
